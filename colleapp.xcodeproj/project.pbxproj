@@ -12,6 +12,9 @@
 		F955B22B1DCBAEDC002C8AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955B2291DCBAEDC002C8AFE /* Main.storyboard */; };
 		F955B22D1DCBAEDC002C8AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F955B22C1DCBAEDC002C8AFE /* Assets.xcassets */; };
 		F955B2301DCBAEDC002C8AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955B22E1DCBAEDC002C8AFE /* LaunchScreen.storyboard */; };
+		F955B2381DCBD569002C8AFE /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955B2371DCBD569002C8AFE /* VideoController.swift */; };
+		F955B23A1DCBD78B002C8AFE /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955B2391DCBD78B002C8AFE /* PartyCell.swift */; };
+		F955B23C1DCBDA7E002C8AFE /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955B23B1DCBDA7E002C8AFE /* PartyRock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F955B22C1DCBAEDC002C8AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F955B22F1DCBAEDC002C8AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F955B2311DCBAEDC002C8AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F955B2371DCBD569002C8AFE /* VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		F955B2391DCBD78B002C8AFE /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		F955B23B1DCBDA7E002C8AFE /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				F955B22C1DCBAEDC002C8AFE /* Assets.xcassets */,
 				F955B22E1DCBAEDC002C8AFE /* LaunchScreen.storyboard */,
 				F955B2311DCBAEDC002C8AFE /* Info.plist */,
+				F955B2371DCBD569002C8AFE /* VideoController.swift */,
+				F955B2391DCBD78B002C8AFE /* PartyCell.swift */,
+				F955B23B1DCBDA7E002C8AFE /* PartyRock.swift */,
 			);
 			path = colleapp;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					F955B2211DCBAEDC002C8AFE = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QN8H28W4G3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F955B2281DCBAEDC002C8AFE /* ViewController.swift in Sources */,
+				F955B2381DCBD569002C8AFE /* VideoController.swift in Sources */,
+				F955B23C1DCBDA7E002C8AFE /* PartyRock.swift in Sources */,
+				F955B23A1DCBD78B002C8AFE /* PartyCell.swift in Sources */,
 				F955B2261DCBAEDC002C8AFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QN8H28W4G3;
 				INFOPLIST_FILE = colleapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashok.colleapp;
@@ -270,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QN8H28W4G3;
 				INFOPLIST_FILE = colleapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashok.colleapp;
